@@ -100,7 +100,7 @@ function getPrevHadith(){
 }
 //quran display
 async function getQuran(){
-    quranResponse=await fetch(`http://api.alquran.cloud/v1/meta`);
+    quranResponse=await fetch(`https://api.alquran.cloud/v1/meta`);
     quranData=await quranResponse.json();
     quranData=quranData.data.surahs.references;
     // console.log(quranData);
@@ -152,7 +152,7 @@ function displayQuran(){
 //pray time
 getPrayTime();
 async function getPrayTime(){
-    prayResponse= await fetch(`http://api.aladhan.com/v1/timingsByCity?city=cairo&country=egypt`);
+    prayResponse= await fetch(`https://api.aladhan.com/v1/timingsByCity?city=cairo&country=egypt`);
     prayData= await prayResponse.json();
     prayData=prayData.data.timings;
     displayPrayTime();
