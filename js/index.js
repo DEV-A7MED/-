@@ -12,6 +12,7 @@ let nextBtn =document.querySelector('#next');
 let prevBtn =document.querySelector('#previous');
 let hadithIndex=0;
 
+
 let currentHadith=document.querySelector('.number .current-hadith');
 let totalNumbers=document.querySelector('.number .total-numbers');
 //back top button
