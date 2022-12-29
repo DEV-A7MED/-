@@ -3,6 +3,8 @@
     --main-color:#fff;
     --logo-font:'thuluth-decorated';
     --secondary-color:#43a047;
+    --quran-text:'Noto Nastaliq Urdu', serif;
+
 }
 *{
     padding: 0;
@@ -253,7 +255,10 @@ nav.active-nav{
 .popup .surah-details p{
     line-height: 2;
     border-bottom: 2px solid var(--secondary-color);
-
+    font-family: var(--quran-text);
+    font-size: 1.5rem;
+    line-height: 2.5;
+    font-weight: 500;
 }
 
 /* End quran section */
