@@ -3,7 +3,7 @@
     --main-color:#fff;
     --logo-font:'thuluth-decorated';
     --secondary-color:#43a047;
-    --quran-text:'Noto Nastaliq Urdu', serif;
+    --quran-text:'Noto Naskh Arabic', serif;
 
 }
 *{
@@ -257,7 +257,7 @@ nav.active-nav{
     border-bottom: 2px solid var(--secondary-color);
     font-family: var(--quran-text);
     font-size: 1.5rem;
-    line-height: 2.5;
+    line-height: 2;
     font-weight: 500;
 }
 
